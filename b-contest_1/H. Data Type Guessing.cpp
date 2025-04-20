@@ -4,7 +4,7 @@ int main()
 {
 	double num1, num2, num3;
 	cin >> num1 >> num2 >> num3;
-	double result = (num1 * num2) / num3; 
+	double result = (num1 * (num2 / num3)); 
 	long long myNumber = result;		  
 	double myRes = result - myNumber;	  
 	if (myRes > 0)
